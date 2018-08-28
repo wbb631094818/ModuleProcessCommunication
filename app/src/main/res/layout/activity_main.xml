@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.moduleprocesscommunication.MainActivity">
+
+    <EditText
+        android:id="@+id/et"
+        android:hint="输入你要传输的内容"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/aidl"
+        android:text="AIDL"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/messenger"
+        android:text="Messenger"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/serialize"
+        android:text="序列化对象"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/broadcast"
+        android:text="broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/socket"
+        android:text="socket"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/content_provider"
+        android:text="Content Provider"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/intent"
+        android:text="Intent 跳转"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/sharedPreferences"
+        android:text="sharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/eventbus"
+        android:text="EventBus"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+</LinearLayout>
